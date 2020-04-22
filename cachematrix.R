@@ -1,7 +1,7 @@
 ## These functions calculate inverse of a matrix.
 ## First function computes the matrix and second matrix sorts and prints the answer.
 
-## Computes the inverse
+## This function catches the matrix and computes its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Returns the inverse from computation
+## This function returns the inverse from computation in makeCacheMatrix function
 cacheSolve <- function(x, ...) {
         i <- x$getinverse()
         if( !is.null(i) ) {
